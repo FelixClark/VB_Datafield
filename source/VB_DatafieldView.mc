@@ -40,11 +40,11 @@ class VB_DatafieldView extends WatchUi.DataField {
             labelView.locY = labelView.locY - 20;
             var valueView = View.findDrawableById("value");
             valueView.locX = valueView.locX - 20 ;
-            valueView.locY = valueView.locY + 10;
+            valueView.locY = valueView.locY + 8;
 
             var vbIconView = View.findDrawableById("VB_icon");
             vbIconView.locX = vbIconView.locX + 32;
-            vbIconView.locY = vbIconView.locY + 10;
+            vbIconView.locY = vbIconView.locY + 8;
         }
 
         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
